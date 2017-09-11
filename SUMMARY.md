@@ -5,6 +5,6 @@
 * [Начало работы](nachalo-raboti.md)
 * [Структура проекта](struktura-proekta.md)
 * [Рабочий процесс](rabochii-protsess.md)
-* Рецепты
-* Ссылки
+* [Рецепты](retsepti.md)
+* [Ссылки](ssilki.md)
 
