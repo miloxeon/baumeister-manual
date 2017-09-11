@@ -68,5 +68,17 @@ git config --global user.email "ваш email"
 
 ## Baumeister
 
+Для своей работы Baumeister использует несколько дополнительных пакетов. Установить все необходимое сразу можно, выполнив следующую команду:
+
+```bash
+npm i -g gulp-cli yo generator-baumeister
+```
+
+Данная команда установит пакеты `gulp-cli`, `yo` и `generator-baumeister` глобально, таким образом, мы сможем использовать Baumeister в любой папке прямо из терминала.
+
+### Описание пакетов
+
+
+
 
 
