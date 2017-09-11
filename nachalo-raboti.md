@@ -32,7 +32,7 @@
 
 Появившаяся надпись `(master)` обозначает активную ветку Git-репозитария. Для нас это означает, что созданная при клонировании папка действительно содержит наш репозитарий, и мы готовы начинать.
 
-## Создание проекта Baumeister
+## Создание нового проекта Baumeister
 
 Создадим новый проект в нашей папке: введем в терминал следующую команду:
 
@@ -46,7 +46,48 @@ yo baumeister
 
 ### Описание диалога
 
+**What’s the name of your project?** — имя проекта. По умолчанию совпадает с именем репозитария, только начинается с большой буквы и содержит пробелы.
 
+**A short description of your project:** — краткое описание проекта _\(опционально\)_.
 
+**What to you want to build?** — тип создаваемого проекта. Нас интересует первый вариант: **A static website \(Static site generator using Handlebars and Frontmatters\)**. Второй вариант создаст проект без Handlebars.
 
+**How should your Bootstrap theme be named in the Sass files?** — имя нашей темы для Bootstrap. Лучше писать сюда что-то имеющее смысл, потому что именно так будет называться папка с нашей темой и некоторые файлы в проекте. Можно вписать сюда имя проекта.
+
+**With how many boilerplate code you like to get started with?** — сколько шаблонных файлов нам нужно. Поначалу лучше выбирать первый пункт: **Just a little – Get started with a few example files**.
+
+**Do you like change the default output paths?** — нужно ли изменить пути выходных файлов. Нажимаем `n`.
+
+**Choose a license for you project** — выбор лицензии для проекта. Доступно четыре варианта:
+
+* [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
+* [Apache License](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), Version 2.0
+* [GNU GPLv3](https://ru.wikipedia.org/wiki/GNU_General_Public_License#GPL_v3)
+* [All rights reserved](https://ru.wikipedia.org/wiki/All_rights_reserved)
+
+Более подробно о выборе лицензии можно почитать на [Хабре](https://habrahabr.ru/post/243091/).
+
+**What’s your Name?** — ваше имя.
+
+**What’s the the URL of your website?** — адрес вашего личного сайта \(не сайта проекта!\) _\(опционально\)_
+
+**Which initial version should we put in the package.json?** — начальная версия проекта.
+
+**Do you like to add additional info to package.json?** — хотим ли мы указать дополнительную информацию о проекте. Ее можно указать позднее в файле package.json _\(опционально\)_.
+
+**Do you like to add comment headers containing meta information to your production files?** — хотим ли мы, чтобы конечные файлы содержали информацию о нашем проекте.
+
+**Do you like to add your production ready files \(\`dist\` directory\) to version control?** — хотим ли мы, чтобы конечные файлы попали в репозитарий. Более подробно про игнорирование файлов можно почитать в [документации к Git](https://git-scm.com/book/ru/v1/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B2-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9#Игнорирование-файлов).
+
+![](/assets/vvvv.png)Процесс создания проекта происходит достаточно долго. В конце вы увидите сообщение об успешном завершении создания проекта:
+
+![](/assets/ggg.png)
+
+Вот и все! Можно начинать работу.
+
+### Типичные неисправности
+
+**Ошибка с `apply`** возникает, если у вас установлен `gulp` старой версии. Нужно удалить `gulp`, установленный глобально, и установить вместо него `gulp-cli`. Ошибка может возникнуть, если вы ранее использовали `gulp`.
+
+**Ошибка с Git** возникает, если у вас в системе нет валидного SSH-ключа. Если у вас получилось клонировать репозитарий через SSH, этой ошибки возникнуть не должно.
 
