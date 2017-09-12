@@ -7,6 +7,7 @@
 * [Структура проекта](struktura-proekta.md)
 * [Рабочий процесс \(веб-страницы\)](rabochii-protsess.md)
 * [Рабочий процесс \(интерфейсы\)](rabochii-protsess-interfeisi.md)
+* [Навигационная панель](navigatsionnaya-panel.md)
 * [Рецепты](retsepti.md)
-* [Ссылки](ssilki.md)
+* Навигационная панель
 
