@@ -1,5 +1,13 @@
 # Структура проекта
 
+Содержание:
+
+* [Структура исходного кода](#структура-исходного-кода)
+* [Папка app \(JavaScript-код\)](#папка-app-javascript-код)
+* [Папка assets \(медиа-файлы\)](#папка-assets-медиа-файлы)
+  * [Папка assets/scss \(тема для Bootstrap\)](#папка-assetsscss-тема-для-bootstrap)
+* [Папка handlebars \(шаблоны Handlebars\)](#папка-handlebars-шаблоны-handlebars)
+
 ![](/assets/structure.png)
 
 Ниже расположено описание только нужных для работы файлов и папок. Более подробное описание можно получить в [официальной документации](https://github.com/micromata/Baumeister/blob/master/README.md).
