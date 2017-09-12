@@ -56,7 +56,7 @@ git config --global user.email "ваш email"
 
 ## Текстовый редактор
 
-Автор рекомендует использовать [Sublime Text](https://www.sublimetext.com/) из-за малого размера и [достойного быстродействия](https://blog.xinhong.me/post/sublime-text-vs-vscode-vs-atom-performance-dec-2016/). Если у вас уже есть любимый редактор, используйте его.
+Автор рекомендует использовать [Sublime Text](https://www.sublimetext.com/) из-за малого размера и [достойного быстродействия](https://blog.xinhong.me/post/sublime-text-vs-vscode-vs-atom-performance-dec-2016/). Если у вас уже есть любимый редактор, используйте его. Более подробно о настройке текстового редактора можно почитать в разделе «[Настройка Sublime Text](/nastroika-sublime-text.md)».
 
 ## SSH-ключ
 

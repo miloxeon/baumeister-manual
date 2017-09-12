@@ -10,4 +10,5 @@
 * [Создание компонентов и страниц сайта](rabochii-protsess.md)
 * [Создание темы](rabochii-protsess-interfeisi.md)
 * [Рецепты](retsepti.md)
+* [Ссылки](ssilki.md)
 
