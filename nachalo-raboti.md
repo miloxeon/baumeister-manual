@@ -60,8 +60,8 @@ yo baumeister
 
 **Choose a license for you project** — выбор лицензии для проекта. Доступно четыре варианта:
 
-* [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
-* [Apache License](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), Version 2.0
+* [MIT](https://ru.wikipedia.org/wiki/Лицензия_MIT)
+* [Apache License](https://ru.wikipedia.org/wiki/Лицензия_Apache), Version 2.0
 * [GNU GPLv3](https://ru.wikipedia.org/wiki/GNU_General_Public_License#GPL_v3)
 * [All rights reserved](https://ru.wikipedia.org/wiki/All_rights_reserved)
 
@@ -77,17 +77,17 @@ yo baumeister
 
 **Do you like to add comment headers containing meta information to your production files?** — хотим ли мы, чтобы конечные файлы содержали информацию о нашем проекте.
 
-**Do you like to add your production ready files \(\`dist\` directory\) to version control?** — хотим ли мы, чтобы конечные файлы попали в репозитарий. Более подробно про игнорирование файлов можно почитать в [документации к Git](https://git-scm.com/book/ru/v1/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B2-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9#Игнорирование-файлов).
+**Do you like to add your production ready files \(\`dist\` directory\) to version control?** — хотим ли мы, чтобы конечные файлы попали в репозитарий. Более подробно про игнорирование файлов можно почитать в [документации к Git](https://git-scm.com/book/ru/v1/Основы-Git-Запись-изменений-в-репозиторий#Игнорирование-файлов).
 
 ![](/assets/vvvv.png)Процесс создания проекта происходит достаточно долго. В конце вы увидите сообщение об успешном завершении создания проекта:
 
 ![](/assets/ggg.png)
 
-Вот и все! Можно начинать работу.
+Вот и все! Можно начинать работу. Осталось ознакомиться со [структурой проекта](/struktura-proekta.md) и [основными командами](/osnovnie-komandi.md).
 
 ### Типичные неисправности
 
-**Ошибка с `apply`** возникает, если у вас установлен `gulp` старой версии. Нужно удалить `gulp`, установленный глобально, и установить вместо него `gulp-cli`. Ошибка может возникнуть, если вы ранее использовали `gulp`.
+**Ошибка с **`apply` возникает, если у вас установлен `gulp` старой версии. Нужно удалить `gulp`, установленный глобально, и установить вместо него `gulp-cli`. Ошибка может возникнуть, если вы ранее использовали `gulp`.
 
 **Ошибка с Git** возникает, если у вас в системе нет валидного SSH-ключа. Если у вас получилось клонировать репозитарий через SSH, этой ошибки возникнуть не должно.
 
