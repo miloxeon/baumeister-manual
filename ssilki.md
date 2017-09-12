@@ -24,5 +24,5 @@
 * [Генераторы для Yeoman](http://yeoman.io/generators/)
 * [Sassmeister](https://www.sassmeister.com/) — компиляция SCSS в CSS в браузере
 
-
+[Автор](https://github.com/uyouthe)
 
