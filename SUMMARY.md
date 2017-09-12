@@ -9,4 +9,5 @@
 * [Рабочий процесс](protsess-raboti.md)
 * [Создание компонентов и страниц сайта](rabochii-protsess.md)
 * [Создание темы](rabochii-protsess-interfeisi.md)
+* [Рецепты](retsepti.md)
 
