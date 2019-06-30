@@ -1,4 +1,4 @@
-# Введение [![Become a patron](https://miloslav.website/patreon.svg)](https://www.patreon.com/uyouthe)
+# Введение 
 
 > Это руководство не рассчитано на абсолютных новичков. Предполагается, что вы уже знаете основы HTML, CSS, Bootstrap, Git и работы в командной строке.
 
